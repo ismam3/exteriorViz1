@@ -3,7 +3,7 @@ import {GLTFLoader} from "./three/examples/jsm/loaders/GLTFLoader.js";
 
 
 let loader = new GLTFLoader();
-const texture = new THREE.TextureLoader().load( "../models/Textures/environment.jpg" );
+const texture = new THREE.TextureLoader().load( "../exteriorViz1/models/Textures/environment.jpg" );
 texture.mapping = THREE.EquirectangularReflectionMapping;
 loader.load(
     "../exteriorViz1/models/model.glb",
