@@ -30,17 +30,17 @@ loader.load(
         }
     }
 )
-loader.load("../exteriorViz1/models/trees.glb",(gltf)=>{
-    var scene = document.querySelector('a-scene').object3D;
-        var model = gltf.scene;
-        model.position.set(0, 0, -15.26);
-        model.rotation.set(0, 90, 90)
-        scene.add( gltf.scene );
-        loader.load("../exteriorViz1/models/tree.glb",(gltf)=>{
-            var scene = document.querySelector('a-scene').object3D;
-                var model = gltf.scene;
-                model.position.set(-42.37438, 0, -15.26);
-                model.rotation.set(0, 90, 90)
-                scene.add( gltf.scene );
-        })
-})
+// loader.load("../exteriorViz1/models/trees.glb",(gltf)=>{
+//     var scene = document.querySelector('a-scene').object3D;
+//         var model = gltf.scene;
+//         model.position.set(0, 0, -15.26);
+//         model.rotation.set(0, 90, 90)
+//         scene.add( gltf.scene );
+//         loader.load("../exteriorViz1/models/tree.glb",(gltf)=>{
+//             var scene = document.querySelector('a-scene').object3D;
+//                 var model = gltf.scene;
+//                 model.position.set(-42.37438, 0, -15.26);
+//                 model.rotation.set(0, 90, 90)
+//                 scene.add( gltf.scene );
+//         })
+// })
